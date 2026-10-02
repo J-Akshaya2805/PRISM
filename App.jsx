@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import Navbar from './components/Navbar';
-import LandingPage from './components/LandingPage';
-import DataUpload from './components/DataUpload';
-import DataOverview from './components/DataOverview';
-import InsightsDashboard from './components/InsightsDashboard';
-import DecisionCenter from './components/DecisionCenter';
-import EvidenceModal from './components/EvidenceModal';
-import AskPrism from './components/AskPrism';
+import Navbar from './Navbar';
+import LandingPage from './LandingPage';
+import DataUpload from './DataUpload';
+import DataOverview from './DataOverview';
+import InsightsDashboard from './InsightsDashboard';
+import DecisionCenter from './DecisionCenter';
+import EvidenceModal from './EvidenceModal';
+import AskPrism from './AskPrism';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('landing');
